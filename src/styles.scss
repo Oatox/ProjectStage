@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+font-family: 'Readex Pro', sans-serif;
+}
+
+.container{
+    margin: auto;
+    width: 40%;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin-top: 150px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #e8e8e8;
+}
+
+.menu{
+    margin: auto;
+    padding: 30px;
+    width: 40%;
+}
+
+.menu li{
+    padding: 5px;
+}
+
+.menu a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover{
+    color: purple;
+}
+
+.content{
+    padding-top: 100px;
+    margin: auto;
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.content a{
+    text-decoration: none;
+    color: black;
+}
+
+.content a:hover{
+    color: purple;
+}
