@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  menu1 = 'Mon stage chez Aniah';
+  menu1 = 'Mon stage chez Aniah!';
 }

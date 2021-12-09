@@ -8,6 +8,8 @@ import { StageAniahComponent } from './stage-aniah/stage-aniah.component';
 import { Routes } from '@angular/router';
 import { RouterModule } from '@angular/router';
 import { StaffAniahComponent } from './staff-aniah/staff-aniah.component';
+import { TeamComponent } from './team/team.component';
+import { BioComponent } from './bio/bio.component';
 
 const appRoutes: Routes = [
   { path: 'mon-premier', component: MonPremierComponent },
@@ -22,7 +24,9 @@ const appRoutes: Routes = [
     AppComponent,
     MonPremierComponent,
     StageAniahComponent,
-    StaffAniahComponent
+    StaffAniahComponent,
+    TeamComponent,
+    BioComponent
   ],
   imports: [
     BrowserModule,
