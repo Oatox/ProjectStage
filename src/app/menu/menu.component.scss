@@ -1,0 +1,23 @@
+.menu{
+    margin: auto;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li{
+    padding: 5px;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+
+.menu a{
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #BB0A2D;
+}

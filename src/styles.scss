@@ -1,40 +1,17 @@
 * {
-font-family: 'Readex Pro', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1c2c2e;
+    color: white;
 }
 
 .container{
-    margin: auto;
-    width: 40%;
-    border: 3px solid rgba(0, 0, 0, 0.3);
+    width: 10%;
     text-align: center;
-    margin-top: 150px;
     padding: 30px;
-    border-radius: 5px;
-    background-color: #e8e8e8;
-}
-
-.menu{
-    margin: auto;
-    padding: 30px;
-    width: 40%;
-}
-
-.menu li{
-    padding: 5px;
-}
-
-.menu a{
-    font-size: 1.5em;
-    text-decoration: none;
-    color: black;
-}
-
-.menu a:hover{
-    color: purple;
 }
 
 .content{
-    padding-top: 100px;
+    padding-top: 20px;
     margin: auto;
     width: 50%;
     font-size: 25px;
@@ -44,16 +21,16 @@ font-family: 'Readex Pro', sans-serif;
 
 .content a{
     text-decoration: none;
-    color: black;
 }
 
 .content a:hover{
-    color: purple;
+    color: #BB0A2D;
+    cursor: pointer;
 }
 
 .content img{
     border-radius: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 5px solid rgba(187, 10, 45, 0.5);
     width: 120px;
     height: 120px;
     vertical-align: middle;

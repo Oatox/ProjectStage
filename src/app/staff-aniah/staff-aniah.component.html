@@ -1,11 +1,11 @@
 <div class="container">
     <h1>L'équipe d'Aniah</h1>
 </div>
-<div class="menu">
-    <li><a routerLink="../stage-aniah">Mon stage chez Aniah</a></li>
-    <li><a routerLink="">Retour à la page d'accueil</a></li>
-</div>
+<app-menu></app-menu>
 <div class="content">
-<!-- <li *ngFor="let test of team"><img src="{{ test.picture }}"><a href="{{ test.linkedin }}" target="_blank">{{ test.name }} - {{ test.fonction }}</a></li> -->
-<app-team [test]="test" *ngFor="let test of team"></app-team>
+<app-team [test]="test" *ngFor="let test of team" (onDetail)="onDetail($event)"></app-team>
 </div>
+<app-bio [bio]="bio"></app-bio>
+<app-footer></app-footer>
+
+
