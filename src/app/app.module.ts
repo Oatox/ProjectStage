@@ -12,6 +12,7 @@ import { TeamComponent } from './team/team.component';
 import { BioComponent } from './bio/bio.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 const appRoutes: Routes = [
   { path: 'mon-premier', component: MonPremierComponent },
@@ -34,7 +35,8 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
