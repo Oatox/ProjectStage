@@ -1,9 +1,9 @@
-<div fxLayout=column>
-<div>
+<div fxLayout=column class="padding-50">
+<div class="padding-10">
     <h1>L'équipe d'Aniah</h1>
 </div>
 <div fxLayout=row>
-    <div fxFlex class="padding-10">
+    <div fxFlex>
         <app-team class="list-element" [test]="test" *ngFor="let test of team" (onDetail)="onDetail($event)"></app-team>
         </div>
         <div fxFlex class="bio">
